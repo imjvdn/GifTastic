@@ -13,15 +13,17 @@
     <!-- Added a link to Bootstrap-->
     <!-- Dark mode Bootstrap-->
     <link
-      href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css"
-      rel="stylesheet"
-    />
+  href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css"
+  rel="stylesheet"
+/>
     <!-- Added link to CSS Style-->
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
+
+    <h1>GifTastic</h1>
     
-    <div class="fluid-jumbotron">
+    <div class="gif">
       <div class="row">
         <div class="col-md-12">
           <div class="buttons-view"></div>
@@ -33,11 +35,13 @@
         </div>
         <div class="col-md-3">
           <form id="gif-form">
-            <label for="topic-input">Add anything</label><br />
+            <label for="topic-input">Type something in the box</label><br />
             <input type="text" id="topic-input" /><br />
+            <br>
+            <!--Search button-->
             <input
               id="add-topic"
-              class="btn btn-default"
+              class="btn btn-success"
               type="submit"
               value="Submit"
             />
@@ -51,7 +55,4 @@
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
-<link
-  href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css"
-  rel="stylesheet"
-/>
+
