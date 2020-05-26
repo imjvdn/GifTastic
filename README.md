@@ -1,3 +1,9 @@
+                                                           
+    |         |              ,-.-.                         
+    |,---.,---|,---.,---.    | | |,---.,---.,---.,---.. . .
+    |,---||   |,---||   |    | | ||   ||    |    |   || | |
+`---'`---^`---'`---^`   '    ` ' '`---'`    `    `---'`-'-'
+
 # GifTastic
 
 This is a program that calls a giphy api for the subject that you search.
